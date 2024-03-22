@@ -1,0 +1,91 @@
+body {
+  background-color: #f4d04e;
+  font-family: Figtree, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  height: 501px;
+  width: 327px;
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  border: 1px solid black;
+}
+
+.image1 {
+  background-image: url('images/blogimage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 279px;
+  margin: 24px;
+}
+
+.information {
+  height: 173px;
+  margin: 0px 24px;
+}
+
+.user {
+  margin: 24px;
+  display: flex;
+}
+
+.yellow {
+  background-color: #f4d04e;
+  height: 26px;
+  width: 73px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: center;
+}
+
+.date {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.text {
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user {
+  height: 32px;
+}
+
+.userimage {
+  height: 32px;
+  width: 32px;
+}
+
+.username {
+  line-height: 5px;
+  margin-left: 10px;
+  align-self: center;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    width: 384px;
+  }
+
+  .image1 {
+    width: 336px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}
